@@ -188,7 +188,7 @@ main {
    }
    #circle-image-bg{
     
-        background: url("../images/reasons-image.webp") no-repeat top center/cover;
+        background:url(../images/reasons-image.webp)no-repeat top center/cover;
         height: 90vw;
         width: 90vw;
         margin-bottom: 90px;
@@ -204,6 +204,27 @@ main {
     justify-content: center;
    }
 
+
+}
+/*Meet up times image*/
+#times{
+background:url(../images/dublin-city.webp) no-repeat center/cover;
+display:flex;
+flex-wrap: wrap;
+}
+#times div{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* these will wrap or expand depending of screen size*/
+    flex-basis:200px;
+    flex-grow:1;
+    border: 2px solid white ;
+
+}
+#times h3{
+    color: #fafafa;
 }
 #benefits-physical
 #benefits-mental{
